@@ -1,9 +1,9 @@
 {
-  "name": "@semantic-release/condition-codeship",
-  "description": "make sure only the right builds on codeship get to publish",
-  "author": "Stephan Bönnemann <stephan@boennemann.me> (http://boennemann.me)",
+  "name": "@zetaron/condition-bitrise",
+  "description": "make sure only the right builds on bitrise get to publish",
+  "author": "Fabian Stegemann <fabian.stegemann@gmx.net>",
   "bugs": {
-    "url": "https://github.com/semantic-release/condition-codeship/issues"
+    "url": "https://github.com/zetaron/condition-bitrise/issues"
   },
   "dependencies": {
     "@semantic-release/error": "^1.0.0",
@@ -19,12 +19,12 @@
   "files": [
     "index.js"
   ],
-  "homepage": "https://github.com/semantic-release/condition-codeship#readme",
+  "homepage": "https://github.com/zetaron/condition-bitrise#readme",
   "keywords": [
     "publish",
     "release",
     "semantic-release",
-    "codeship"
+    "bitrise"
   ],
   "license": "MIT",
   "publishConfig": {
@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/condition-codeship.git"
+    "url": "https://github.com/zetaron/condition-bitrise.git"
   },
   "scripts": {
     "coverage": "nyc report",

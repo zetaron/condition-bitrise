@@ -20,8 +20,6 @@ module.exports = function (pluginConfig, config, cb) {
     ))
   }
 
-  if (options.branch === env.BITRISE_GIT_BRANCH) return cb(null)
-
   if (semver.valid(env.BITRISE_GIT_TAG)) {
     return cb(new SRError(
       'This test run was triggered by a git tag that was created by semantic-release itself.\n' +
@@ -29,6 +27,8 @@ module.exports = function (pluginConfig, config, cb) {
       'EGITTAG'
     ))
   }
+
+  if (options.branch === env.BITRISE_GIT_BRANCH) return cb(null)
 
   return cb(new SRError(
     'This test run was triggered on the branch ' + env.BITRISE_GIT_BRANCH +

@@ -3,13 +3,13 @@ var SRError = require('@semantic-release/error')
 
 var condition = require('./')
 
-test('raise errors in codeship environment', function (t) {
+test('raise errors in bitrise environment', function (t) {
   t.test('only runs on ci', function (tt) {
     tt.plan(2)
 
     condition({}, {env: {}}, function (err) {
       tt.ok(err instanceof SRError)
-      tt.is(err.code, 'ENOCODESHIP')
+      tt.is(err.code, 'ENOCI')
     })
   })
 

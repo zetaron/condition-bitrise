@@ -2,7 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/%40zetaron%2Fcondition-bitrise.svg)](http://badge.fury.io/js/%40zetaron%2Fcondition-bitrise)
 [![Bitrise Status for zetaron/condition-bitrise]()
-[![Coverage Status](https://coveralls.io/repos/semantic-release/condition-codeship/badge.svg?branch=master&service=github)](https://coveralls.io/github/semantic-release/condition-codeship?branch=master)
+[![Coverage Status](https://coveralls.io/repos/zetaron/condition-bitrise/badge.svg?branch=master&service=github)](https://coveralls.io/github/zetaron/condition-bitrise?branch=master)
 
 [![Dependency Status](https://david-dm.org/zetaron/condition-bitrise/master.svg)](https://david-dm.org/zetaron/condition-bitrise/master)
 [![devDependency Status](https://david-dm.org/zetaron/condition-bitrise/master/dev-status.svg)](https://david-dm.org/zetaron/condition-bitrise/master#info=devDependencies)

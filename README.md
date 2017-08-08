@@ -1,4 +1,4 @@
-# semantic-release condition-codeship
+# semantic-release condition-bitrise
 
 [![npm version](https://badge.fury.io/js/%40zetaron%2Fcondition-bitrise.svg)](http://badge.fury.io/js/%40zetaron%2Fcondition-bitrise)
 [![Bitrise Status for zetaron/condition-bitrise]()

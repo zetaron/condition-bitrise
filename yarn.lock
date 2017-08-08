@@ -2315,9 +2315,9 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-semantic-release@^6.0.3:
-  version "6.3.6"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-6.3.6.tgz#629d0aec90b38a2957a57a4a9ee1214af51928c7"
+"semantic-release@github:zetaron/semantic-release#feature/include-remote-when-checking-for-which-branch-contains-commit":
+  version "0.0.0-placeholder"
+  resolved "https://codeload.github.com/zetaron/semantic-release/tar.gz/0d40e79455c11d810b4b2f7a005b6c07aab11ade"
   dependencies:
     "@semantic-release/commit-analyzer" "^2.0.0"
     "@semantic-release/condition-travis" "^5.0.2"

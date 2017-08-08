@@ -1,7 +1,7 @@
 # semantic-release condition-bitrise
 
 [![npm version](https://badge.fury.io/js/%40zetaron%2Fcondition-bitrise.svg)](http://badge.fury.io/js/%40zetaron%2Fcondition-bitrise)
-[![Bitrise Status for zetaron/condition-bitrise]()
+[![Bitrise Status for zetaron/condition-bitrise](https://www.bitrise.io/app/4a5518a633c81fa4.svg?token=OdKnsoHWpsVm1Je886of_w)
 [![Coverage Status](https://coveralls.io/repos/zetaron/condition-bitrise/badge.svg?branch=master&service=github)](https://coveralls.io/github/zetaron/condition-bitrise?branch=master)
 
 [![Dependency Status](https://david-dm.org/zetaron/condition-bitrise/master.svg)](https://david-dm.org/zetaron/condition-bitrise/master)
